@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aviator</title>
+  <link rel="stylesheet" href="../styles.css" /> <!-- tu CSS original -->
+</head>
+<body>
+  <!-- --------------------------- CABECERA --------------------------- -->
+  <header class="header">
+    <div class="contenedor-logo">
+      <img src="../img/logo.png" alt="Logo" class="logo" />
+      <span class="nombre">Aviator</span>
+    </div>
+
+    <nav class="menu">
+      <ul class="lista">
+        <li class="enlace"><a href="../index.html" class="link">Inicio</a></li>
+        <li class="enlace"><a href="../templates/destino.html" class="link">Destinos</a></li>
+        <li class="enlace"><a href="../templates/aviator.html" class="link">IA Asistente</a></li>
+        <li class="enlace"><a href="../templates/precios.html" class="link">Precios</a></li>
+        <li class="enlace"><a href="../templates/conctacto.html" class="link">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="contenedor-botones">
+      <button class="boton-1">Iniciar sesión</button>
+      <button class="boton-2">Registrarse</button>
+    </div>
+  </header>
+
+  <!-- --------------------------- PORTADA SIMPLE --------------------------- -->
+  <section class="contenedor-portada">
+    <img src="../img/c1.jpeg" alt="Fondo contacto" class="fondo" />
+    <div class="eslogan">
+      <h1>Contáctanos</h1>
+      <p>¿Tienes preguntas o sugerencias? ¡Hablemos!</p>
+    </div>
+  </section>
+
+  <!-- --------------------------- SECCIÓN CONTACTO --------------------------- -->
+  <main class="caracteristicas" style="padding-top:50px;">
+    <div class="contenedor-cuadros">
+      <!-- Datos de contacto -->
+      <div class="cuadro">
+        <img src="../img/tele.png" alt="Teléfono" class="icono" />
+        <h2>Teléfono</h2>
+        <p>+57&nbsp;123&nbsp;456&nbsp;7890</p>
+        <p>Lunes a Viernes, 9 am – 6 pm</p>
+      </div>
+
+      <div class="cuadro">
+        <img src="../img/correo.png" alt="Correo" class="icono" />
+        <h2>Correo</h2>
+        <p>soporte@aviatorviajes.com</p>
+        <p>Respondemos en menos de 24 h.</p>
+      </div>
+
+      <div class="cuadro">
+        <img src="../img/lugar.png" alt="Ubicación" class="icono" />
+        <h2>Oficina</h2>
+        <p>Calle 123 #45‑67</p>
+        <p>Armenia, Colombia</p>
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <div style="margin:80px auto; max-width:1000px;">
+      <iframe
+        title="Mapa Hermes"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.7356421080364!2d-75.68097948574232!3d4.517282996736979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38c4f9c0e8a62f%3A0x36c01c57e9d3b6b!2sArmenia%2C%20Quindio!5e0!3m2!1ses!2sco!4v1710000000000"
+        width="100%"
+        height="400"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+
+    <!-- Formulario -->
+    <h4>Envíanos un mensaje</h4>
+    <form style="max-width:600px; margin:auto;">
+      <div style="display:flex; gap:20px; margin-bottom:15px;">
+        <input type="text" placeholder="Nombre" required style="flex:1; padding:10px; border-radius:6px; border:1px solid #ccc;" />
+        <input type="email" placeholder="Correo electrónico" required style="flex:1; padding:10px; border-radius:6px; border:1px solid #ccc;" />
+      </div>
+      <textarea placeholder="Escribe tu mensaje" rows="6" required style="width:100%; padding:10px; border-radius:6px; border:1px solid #ccc;"></textarea>
+      <button type="submit" class="boton-1" style="margin-top:15px;">Enviar</button>
+    </form>
+  </main>
+
+  <!-- --------------------------- FOOTER --------------------------- -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="../img/logo.png" alt="Logo" />
+        <h5>Hermes</h5>
+      </div>
+
+      <div class="footer-links">
+        <a href="../index.html">Inicio</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="ia.html">IA</a>
+        <a href="contacto.html">Contacto</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Hermes Viajes · Todos los derechos reservados
+    </div>
+  </footer>
+
+  <!-- Font Awesome (solo si no lo tienes ya) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

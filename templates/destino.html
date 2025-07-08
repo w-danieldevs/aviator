@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aviator</title>
+  <!-- Tween.js para animar la cámara -->
+  <script src="https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18/dist/tween.umd.js"></script>
+  <link rel="stylesheet" href="../css/destinos.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor-logo">
+            <img src="../img/logo.png" alt="" class="logo">
+            <p class="nombre">Aviator</p>
+        </div>
+        <nav class="menu">
+            <ul class="lista">
+                <li class="enlace"><a href="/index.html" class="link">Inicio</a></li>
+                <li class="enlace"><a href="" class="link">Destinos</a></li>
+                <li class="enlace"><a href="templates/aviator.html" class="link">IA Asistente</a></li>
+                <li class="enlace"><a href="" class="link">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="contenedor-botones">
+            <a href=""><button class="boton-1">Iniciar Seccion</button></a>
+            <a href=""><button class="boton-2">Registrarse</button></a>
+        </div>
+    </header>
+
+  <input id="busqueda" placeholder="Escribe un país y presiona Enter" />
+  <div id="info"></div>
+
+  <script type="module" src="../scripts/destino.js"></script>
+</body>
+</html>

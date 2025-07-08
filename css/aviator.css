@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #915ff5;
+    border-bottom: 2px solid #ffd700;
+}
+
+.contenedor-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nombre {
+    font-size: 35px;
+    color: #fff;
+}
+
+.logo {
+    width: 60px;
+}
+
+.menu {
+
+}
+
+.lista {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.enlace {
+
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #ffd700;
+}
+
+.contenedor-opciones {
+  background-color: #915ff5;
+  padding-top: 50px;
+}
+
+.opciones {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.opcion {
+
+}
+
+.cambiar {
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  background-color: transparent;
+  border: 2px solid #ffd700;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.cambiar:hover {
+  background-color: #ffd700;
+  color: #000;
+}
+
+.contenedor-ia {
+    display: flex;
+    justify-content: center;
+    background-color: #915ff5;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.ia {
+    background-color: #bbb5c756;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    margin-top: 5%;
+    border: 2px solid #fff;
+}
+
+.titulo-principal {
+  font-family: 'Allura', cursive;
+  font-size: 80px;
+  color: #6707a7;
+}
+
+.buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buscador input{
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+}
+
+input:focus {
+  border-color: #ffd700;
+  outline: none; 
+  box-shadow: 0 0 5px 5px #ffd9008a;
+}
+
+.buscador input::placeholder {
+  color: #fff;
+  font-style: italic;
+}
+
+.boton-bucar {
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 30px 0;
+  background-color: #ffd900d5;
+  color: #000;
+}
+
+.boton-bucar:hover {
+  box-shadow: 0 0 10px 5px #ffd900b9;
+}
+
+.grid-imagenes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 95%;
+  gap: 30px;
+  object-fit: cover;
+  margin-left: 40px;
+}
+
+.grid-imagenes img {
+  width: auto;
+  height: auto;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+}
+
+.grid-imagenes .nombre {
+  font-weight: bold;
+  color: #fff;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif; 
+}
+
+.descripcion {
+  text-align: start;
+  margin: 10px;
+  border: 2px solid #ffd700;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid transparent;
+  color: #fff;
+}
+
+.descripcion-activa {
+  border-color: #ffd700; /* O el color que tú quieras */
+}
+
+.subtitulo {
+  margin: 20px;
+}
+
+.grid-imagenes .detalle {
+  color: #fff;
+}
+
+.grid-imagenes .categoria {
+  margin: 20px;
+  background-color: #ffd700;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 100px 100px 50px 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img{
+    width: 60px;
+}
+
+.footer-logo h5{
+    font-size: 35px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  margin-right: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #ffd700;
+}
+
+.footer-social {
+
+}
+
+.footer-social a {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ffd700;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.paginacion {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.paginacion button {
+  padding: 8px 12px;
+  border: 1px solid #ffd700;
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.paginacion button:hover {
+  background-color: #ffd700;
+  color: black;
+}
+
+.paginacion .activo {
+  background-color: #ffd700;
+  color: black;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/aviator.css">
+    <title>Asistente de Viajes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header class="header">
+        <div class="contenedor-logo">
+            <img src="../img/logo.png" alt="" class="logo">
+            <p class="nombre">Aviator</p>
+        </div>
+      <nav class="menu">
+      <ul class="lista">
+        <li class="enlace"><a href="../index.html" class="link">Inicio</a></li>
+        <li class="enlace"><a href="../templates/destino.html" class="link">Destinos</a></li>
+        <li class="enlace"><a href="../templates/aviator.html" class="link">IA</a></li>
+        <li class="enlace"><a href="../templates/precios.html" class="link">Precios</a></li>
+        <li class="enlace"><a href="../templates/conctacto.html" class="link">Contacto</a></li>
+      </ul>
+    </nav>
+        <div class="contenedor-botones">
+            <a href="../templates/login.html"><button class="boton-1">Iniciar Seccion</button></a>
+            <a href="../templates/registro.html"><button class="boton-2">Registrarse</button></a>
+        </div>
+    </header>
+
+    <section class="contenedor-opciones">
+        <div class="opciones">
+            <div class="opcion">
+                <a href="aviator.html"><button class="cambiar">Opcion 1</button></a>
+            </div>
+            <div class="opcion">
+                <a href="aviator2.html"><button class="cambiar">Opcion 2</button></a>
+            </div>
+            <div class="opcion">
+                <a href="aviator3.html"><button class="cambiar">Opcion 3</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor-ia">
+        <div class="ia">
+            <h1 class="titulo-principal">Asistente de Viajes 2.0</h1>
+
+            <div class="buscador">
+                <input id="inputDestino" type="text" placeholder="Ej: Bogotá, París, Nueva York..." />
+                <button id="botonBuscar" class="boton-bucar">Buscar destino</button>
+            </div>
+
+            <div class="seccion">
+                <h2 class="subtitulo"></h2>
+                <div id="descripcion" class="descripcion"></div>
+            </div>
+
+            <div class="seccion">
+                <h2 class="subtitulo"></h2>
+                <div id="contenedorImagenes" class="grid-imagenes"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="/img/logo.png" alt="">
+                <h5>Aviator</h5>
+            </div>
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aviator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="/scripts/aviator2.js"></script>
+</body>
+
+</html>

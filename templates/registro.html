@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator</title>
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+<header class="header">
+        <div class="contenedor-logo">
+            <img src="../img/logo.png" alt="" class="logo">
+            <p class="nombre">Aviator</p>
+        </div>
+      <nav class="menu">
+      <ul class="lista">
+        <li class="enlace"><a href="../index.html" class="link">Inicio</a></li>
+        <li class="enlace"><a href="../templates/destino.html" class="link">Destinos</a></li>
+        <li class="enlace"><a href="../templates/aviator.html" class="link">IA Asistente</a></li>
+        <li class="enlace"><a href="../templates/precios.html" class="link">Precios</a></li>
+        <li class="enlace"><a href="../templates/conctacto.html" class="link">Contacto</a></li>
+      </ul>
+    </nav>
+        <div class="contenedor-botones">
+            <a href="../templates/login.html"><button class="boton-1">Iniciar Seccion</button></a>
+            <a href="../templates/registro.html"><button class="boton-2">Registrarse</button></a>
+        </div>
+    </header>
+
+    <main class="form-container">
+        <h5 class="titulo">Registrarse</h5>
+
+        <label class="nom" for="nameInput">Nombre</label>
+        <input type="text" id="nameInput" placeholder="Escribe tu nombre aquí...">
+
+        <label class="corr" for="correo">Correo</label>
+        <input type="text" id="correo" placeholder="Escriba su correo">
+
+        <label class="contra" for="con">Contraseña</label>
+        <div class="password-wrapper">
+            <input type="password" id="con" placeholder="Escriba una contraseña">
+            <span class="ojo"></span>
+        </div>
+
+        <button id="btnre">Registrarse</button>
+
+        <p id="mensaje"></p>
+    </main>
+    <div class="imagen">
+      <img src="../img/familia.webp" alt="">
+    </div>
+        <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../img/logo.png" alt="">
+                <h5>Aviator</h5>
+            </div>
+            <div class="footer-links">
+                <a href="#">Inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Aviator. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="../scripts/registro.js"></script>
+</body>
+</html>
